@@ -1,2 +1,2 @@
 # SSL
-Es el tp0 para Sintaxis
+Carpeta de tps.
