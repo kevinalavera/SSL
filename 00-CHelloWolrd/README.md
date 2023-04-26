@@ -12,7 +12,7 @@ Para compilarlo usaremos:
 gcc -std=c18 -o hello hello.c
 ```
 
-Esto nos devuelve un ejecutable el cual mediante un comando haremos que el mensaje se quede escrito en un archivo de texto. Esto será muy feo
+Esto nos devuelve un ejecutable el cual mediante un comando haremos que el mensaje se quede escrito en un archivo de texto.
 
 ```
 ./hello.exe > output.txt
