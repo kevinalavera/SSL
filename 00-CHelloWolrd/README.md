@@ -18,4 +18,4 @@ Esto nos devuelve un ejecutable el cual mediante otro comando haremos que el men
 ./hello.exe > output.txt
 ```
 
-Y lo último sería 
+Y lo último sería agregarlo a GitHub
