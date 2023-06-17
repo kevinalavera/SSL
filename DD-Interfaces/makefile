@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall
-Conversion: Conversion.c
-	$(CC) $(CFLAGS) Conversion.c -o main 
+conversion: conversion.c conversion.h
+	$(CC) $(CFLAGS) conversion.c -o main 
 	./main
 
 
