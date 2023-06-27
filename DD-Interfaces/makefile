@@ -1,8 +1,13 @@
 CC=gcc
 CFLAGS=-Wall
 conversion: conversion.c conversion.h
-	$(CC) $(CFLAGS) conversion.c -o main 
+	$(CC) $(CFLAGS) -o main tablasDeConversion.c conversion.c 
 	./main
+
+test: conversionTest.c conversion.h
+	$(CC) $(CFLAGS) -o test conversionTest.c conversion.c 
+	./test
+
 
 
 # Makefile.

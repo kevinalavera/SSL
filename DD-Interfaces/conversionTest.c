@@ -1,13 +1,9 @@
 #include <stdio.h>
 #include <assert.h>
+#include "conversion.h"
  
-
-
-void Celsiusere(){
+int main(){
+    assert(32 == getFarenheit(0));
+    assert(82 == getCelsius(180));
+    printf("No hay errores");
 }
-/*
-• Las dos funciones públicas deben llamarse Celsius y Farenheit.
-• Utilizar assert.
-• Utilizar const y no define.
-• Utilizar for con declaración (C99).
-*/
